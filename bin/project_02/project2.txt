@@ -1,0 +1,125 @@
+Soru 1 : ***** TUGBA HANIM *****
+	
+	 Artan düzende sıralanmış iki adet ınt array göz önüne alındığında,
+         
+         içteki tüm sayılar dışta görünüyorsa true değerini döndürür.
+         ILK ARRAYIN IKINCİ ARRAYIN ICERDIGINI DOGRULAYIN.
+
+         linearIn([1, 2, 4, 6], [2, 4]) → true
+         linearIn([1, 2, 4, 6], [2, 3, 4]) → false
+         linearIn([1, 2, 4, 4, 6], [2, 4]) → true
+
+Soru 2 : ***** ZUHAL HANIM *****
+
+	String bir array verildiğinde
+       	Eger String Orange içeriyorsa bütün  Orange leri Apple  çevir
+
+        Input:
+        Array : Peach , Berry , Orange , WaterMelon , Orange
+	
+	Output :
+        Result böyle olmalı --> : Peach , Berry , Apple , WaterMelon , Apple
+
+        Arrayi print edin(yazdirin).
+
+Soru 3 : ***** HACER HANIM *****
+
+	a ve b den oluşan 2 int array verildiğinde, aynı ilk öğeye sahiplerse 
+        veya aynı son öğeye sahiplerse true değerini döndürün.
+
+        Her iki arrayin lengthi(öğe sayısı) 1 veya daha fazla olacaktır.
+	
+	Output :
+        commonEnd([1, 2, 3], [7, 3]) → true
+        commonEnd([1, 2, 3], [7, 3, 2]) → false
+        commonEnd([1, 2, 3], [1, 3]) → true
+
+Soru 4 : ***** HADİ BEY *****
+
+  	Bir veya daha fazla öğe iceren int array verildiğinde, arraydeki en büyük 
+        ve en küçük öğeler arasındaki farkı return edin.
+
+        Not: the built-in    Math.min(v1, v2) ve   Math.max(v1, v2) 
+        methodları en küçük ve en büyük öğeleri return eder.
+
+	Output :
+        bigDiff([10, 3, 5, 6]) → 10-3 result = 7
+        bigDiff([7, 2, 10, 9]) → 10-2 result = 8
+        bigDiff([2, 10, 7, 1]) → 10-1 result = 9
+
+        Return tipi  int dir
+
+Soru 5 : ***** HIKMET BEY *****
+
+	 {{1,2,3}, {2,3,1} , {5,5,5} , {2,10,3}}
+
+         int 2D arrayini  olustur
+
+         2D arrayinden max number print et
+
+Soru 6 : ***** MURAT BEY *****
+
+	 {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}}
+
+         int 2D arrayini  olustur
+
+         2D arrayinden min number print et
+
+Soru 7 : ***** MYRAT BEY *****
+
+	Verilen int array
+
+
+       duplicated(tekrarlanan) öğeleri array den kaldır
+
+       non-duplicated(tekrarlanmayan) öğe sayisini print et
+
+       Örnek:
+
+       Array is 1,2,2,2,3,3,3,4,4,4,5,5,5
+
+       //1 2 2 2 3 3 3 4 4 4 5 5 5
+
+       result  5 olmalı
+
+       NOT: resultu print ederken for loop kullanmayın
+       System.out.println(Arrays.toString(your_array_name));  kullanın
+
+Soru 8 :***** HIKMET BEY *****
+
+	Verilen String array
+
+	String arrayi ters çevir
+
+	ters arrayi yazdır
+
+       NOT:
+       Arrays.toString(your_array_name);  <--- kullanın
+
+Soru 8 :***** EMRAH BEY *****
+
+        Bir int array verildiğinde, array uzunluğu 1 veya daha fazlaysa ve ilk öğe ile son öğe eşitse true değerini yazdırın.
+
+       sameFirstLast([1, 2, 3]) → false
+       sameFirstLast([1, 2, 3, 1]) → true
+       sameFirstLast([1, 2, 1]) → true
+       sameFirstLast([1]) → true
+
+       sadece  true veya false print et
+
+Soru 9 : ***** EMRAH BEY *****
+
+	  String 2D array oluştur
+
+       {{"$12" , "$22" , "5$"},{"€9" , "€40" , "$1" , "$2"}, {"€12"}}
+
+       String de $ varsa 3.2 ile çarp
+
+       String de € varsa 4.2 ile çarp
+
+       double return et
+
+
+
+	
+ 
