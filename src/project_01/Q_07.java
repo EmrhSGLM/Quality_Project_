@@ -21,24 +21,23 @@ public class Q_07 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Lutfen bir pozitif sayi giriniz");
 		int sayi = scan.nextInt();
-       
+
 		if (sayi <= 0) {
 			System.out.println("Yalnis sayi girdiniz pozitif bir sayi girin lutfen");
 		}
 		for (int i = 1; i <= sayi; i++) {
-            
-           
-		if (sayi==i*i) {
-			System.out.println(true);
-			System.out.println("bu sayi tam kare cunku " + i + "*" + i + "=" + sayi);
-			break;
-		} else  if(sayi==i){
-			System.out.println(false);
-			break;
 
+			if (sayi == i * i) {
+				System.out.println(true);
+				System.out.println("bu sayi tam kare cunku " + i + "*" + i + "=" + sayi);
+				break;
+			} else if (sayi == i) {
+				System.out.println(false);
+				break;
 
+			}
 		}
+		scan.close();
 	}
-}
 	
 }

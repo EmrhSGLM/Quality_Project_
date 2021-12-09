@@ -1,5 +1,5 @@
 Soru 1 :   ***** Hadi Bey *****
-	  Eğer age 10 dan küçük veya eşit ise
+	  	Eğer age 10 dan küçük veya eşit ise
           facebook hesabi acmak icin cok gencsin print yapın.
 
           Eğer age 16 dan küçük veya eşit ise
