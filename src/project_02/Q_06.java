@@ -1,6 +1,6 @@
-package proje_Sorulari;
+package project_02;
 
-public class Q_6 {
+public class Q_06 {
 
 	public static void main(String[] args) {
 

@@ -1,21 +1,21 @@
-package project;
+package project_02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q02 {
+public class Q_02 {
 
 	public static void main(String[] args) {
 		/*
 		 * Soru 2 : ***** ZUHAL HANIM *****
 		 * 
-		 * String bir array verildiðinde Eger String Orange içeriyorsa bütün Orange leri
-		 * Apple çevir
+		 * String bir array verildiï¿½inde Eger String Orange iï¿½eriyorsa bï¿½tï¿½n Orange leri
+		 * Apple ï¿½evir
 		 * 
 		 * Input: Array : Peach , Berry , Orange , WaterMelon , Orange
 		 * 
-		 * Output : Result böyle olmalý --> : Peach , Berry , Apple , WaterMelon , Apple
+		 * Output : Result bï¿½yle olmalï¿½ --> : Peach , Berry , Apple , WaterMelon , Apple
 		 * 
 		 * Arrayi print edin(yazdirin).
 		 */

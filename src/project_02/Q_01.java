@@ -1,8 +1,6 @@
 package project_02;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Q_01 {
 
@@ -21,11 +19,18 @@ public class Q_01 {
 		 * 
 		 * sadece true veya false print et
 		 */
-		int arr[] = {1};
-				
+		
+		
+		int arr[] = {1,2,3};
+		//int arr[] = {1,2,3,1};
+		//int arr[] = {1,2,3,1};
+		//int arr[] = {1};
+
+		
 		if (arr.length >= 1 && arr[0] == arr[arr.length-1]) {
 			
 			System.out.println(Arrays.toString(arr)+" ==> " + "true");
+			
 		} else System.out.println(Arrays.toString(arr)+" ==> " + "false");
 		
 
