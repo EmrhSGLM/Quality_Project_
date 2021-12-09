@@ -65,7 +65,7 @@ Soru 6 : ***** MURAT BEY *****
 
          2D arrayinden min number print et
 
-Soru 7 : ***** MYRAT BEY *****
+Soru 7 : ***** MURAT BEY *****
 
 	Verilen int array
 
