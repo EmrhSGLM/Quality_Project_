@@ -96,7 +96,7 @@ Soru 8 :***** HIKMET BEY *****
        NOT:
        Arrays.toString(your_array_name);  <--- kullanın
 
-Soru 8 :***** EMRAH BEY *****
+Soru 9 :***** EMRAH BEY *****
 
         Bir int array verildiğinde, array uzunluğu 1 veya daha fazlaysa ve ilk öğe ile son öğe eşitse true değerini yazdırın.
 
@@ -107,7 +107,7 @@ Soru 8 :***** EMRAH BEY *****
 
        sadece  true veya false print et
 
-Soru 9 : ***** EMRAH BEY *****
+Soru 10 : ***** EMRAH BEY *****
 
 	  String 2D array oluştur
 
