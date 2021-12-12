@@ -131,13 +131,15 @@ Soru 10 : ***** Emrah Bey *****
     	output veri tipi int olmali
 
 Soru 11 : ***** Gokhan Bey *****
-	Bir String verildiğinde
+	
+		Bir String verildiğinde
 
         Eger String harf sayisi tek ise true print et değilse false print et
 
 Soru 12 : ***** Murat Bey *****
-	Scanner class kullanılarak verilen iki tane Stringi birbirlerine ekle .
-
+	
+		Scanner class kullanılarak verilen iki tane Stringi birbirlerine ekle .
+	
         Eger ilk kelimenin son harfi ikinci kelimenin ilk harfi ile aynı ise aynı olan harflerin 
         birisini kaldırın
 

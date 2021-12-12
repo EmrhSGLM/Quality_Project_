@@ -27,10 +27,8 @@ public class Q_10 {
 		
 		for (int i = 1; i > 0 ; i++) {
 			System.out.println("Please enter two numbers");
-			int num1=0;
-			int num2=0;
-			num1=scan.nextInt();
-			num2=scan.nextInt();			
+			int num1=scan.nextInt();
+			int num2=scan.nextInt();			
 			if (num1 > num2) {
 				max=num1;
 				min=num2;
@@ -43,8 +41,8 @@ public class Q_10 {
 				System.out.println("Please enter differerent numbers");
 			}
 		}
-		
-		int rndm = (int) (min + (Math.random()*max));
+				
+		int rndm = (int) ((Math.random()*(max-min))+min);
 				
 		System.out.println("Random number between "+ min+" to "+max+" ==> "+rndm);
 		scan.close();

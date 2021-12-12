@@ -1,7 +1,8 @@
-package day01_gitupProjeOdevi;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package project_02;
+
+//import java.util.ArrayList;
+//import java.util.Arrays;
+//import java.util.List;
 import java.util.Scanner;
 
 public class Q_01 {
@@ -14,7 +15,8 @@ public class Q_01 {
 
         linearIn([1, 2, 4, 6], [2, 4]) → true
         linearIn([1, 2, 4, 6], [2, 3, 4]) → false
-        linearIn([1, 2, 4, 4, 6], [2, 4]) → true*/
+        linearIn([1, 2, 4, 4, 6], [2, 4]) → true
+        */
 
 		
 		
@@ -26,38 +28,30 @@ public class Q_01 {
 	        System.out.println("Lutfen ikinci sayiyi giriniz");
 	        String myStr1 = scan.nextLine();
 	        String[] arr2 = myStr1.split("");
+	        
 	        boolean a;
 	        int sayac=0;
+	        
 	        for (int i = 0; i < arr1.length; i++) {
 	        	for (int j = 0; j < arr2.length; j++) {
 	        		if (arr1[i].equals(arr2[j])) {
-	        			sayac++;
-						
+	        			sayac++;						
 					}	
 				} 	 
 			}
+	        
 	        if (sayac==arr2.length) {
 	        	a=true;
 	        	System.out.println(a);
 	        	
 			}else {
 				a=false;
-				System.out.println(a);
-				
+				System.out.println(a);				
 			}
 	       
-	        
-	        
 	
 	        
-	        
-	        
-	        
-	        
-	        
-	        
-	        
-	      /*  �kinci cozum
+	      /*  Ikinci cozum
           Scanner scan = new Scanner(System.in);
 		    System.out.println("Lutfen birinci sayilari          giriniz");
 	        String myStr = scan.nextLine();
@@ -90,10 +84,11 @@ public class Q_01 {
 	        }
 	        System.out.println(b1);*/
 		
-	
+	scan.close();
 
-	        }
-	        }
+ }
+	
+}
 	
 	
 
