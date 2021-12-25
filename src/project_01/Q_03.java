@@ -22,7 +22,32 @@ public class Q_03 {
 
 			ipucu :  .charAt, length(), for, index, counter
 		 */
+		Scanner scan = new Scanner (System.in);
+		System.out.println("bir cumle giriniz");
+		String cumle=scan.nextLine().toLowerCase();
+		char krk='b';
 		
+		int count=0;
+		for (int i = 0; i < cumle.length(); i++) {
+			if (cumle.substring(i,i+1).charAt(0)=='b') {
+				count++;				
+			}
+			
+		}
+		System.out.println("Sonuc "+count);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter value of str");
 		String str=scan.next().toLowerCase();
@@ -36,7 +61,7 @@ public class Q_03 {
 		}
 		System.out.println(count);
 		scan.close();
-		
+		*/
 	}
 
 }

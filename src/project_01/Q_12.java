@@ -30,7 +30,7 @@ public class Q_12 {
 		if (kelime1.charAt(kelime1.length() - 1) == kelime2.charAt(0)) {
 
 			// System.out.println(isim1.substring(0, isim1.length()-1)+isim2);
-			System.out.println(kelime1 + kelime2.substring(1, kelime2.length()));
+			System.out.println(kelime1 + kelime2.substring(1));
 
 		} else {
 			System.out.println(kelime1 + kelime2);

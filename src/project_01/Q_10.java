@@ -42,7 +42,7 @@ public class Q_10 {
 			}
 		}
 				
-		int rndm = (int) ((Math.random()*(max-min))+min);
+		double rndm =  ((Math.random()*(max-min))+min);
 				
 		System.out.println("Random number between "+ min+" to "+max+" ==> "+rndm);
 		scan.close();

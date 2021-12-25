@@ -17,7 +17,7 @@ public class Q_11 {
 		
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter value of str");
-		String str=scan.next();
+		String str=scan.nextLine().replaceAll(" ", "");
 		
 		if (str.length() % 2 != 0) {
 			System.out.println("True");

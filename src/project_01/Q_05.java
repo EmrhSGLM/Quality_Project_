@@ -6,8 +6,8 @@ public class Q_05 {
 
 	public static void main(String[] args) {
 		/*
-		 * Scanner class arac�l���yla girilen herhangi bir say�n�n fakt�riyel de�erini
-		 * bulmak i�in bir program yaz�n.
+		 * Scanner class araciliyla girilen herhangi bir sayinin faktoriyel degerini
+		 * bulmak icin bir program yazin.
 		 * 
 		 * number:6 factorial:1*2*3*4*5*6=720 output ---> 720
 		 */

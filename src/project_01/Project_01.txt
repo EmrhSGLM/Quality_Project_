@@ -1,5 +1,5 @@
 Soru 1 :   ***** Hadi Bey *****
-	  	Eğer age 10 dan küçük veya eşit ise
+	  	  Eğer age 10 dan küçük veya eşit ise
           facebook hesabi acmak icin cok gencsin print yapın.
 
           Eğer age 16 dan küçük veya eşit ise
@@ -54,7 +54,7 @@ Soru 4 :  ***** Sezai Bey *****
                 NOT : BU PROBLEMI ÇÖZERKEN SWITCH STATEMENT KULLANIN
 
 Soru 5 : ***** Hikmet Bey *****
-	Scanner class aracılığıyla girilen herhangi bir sayının faktöriyel değerini
+		 Scanner class aracılığıyla girilen herhangi bir sayının faktöriyel değerini
          bulmak için bir program yazın.
 
         number:6
@@ -149,28 +149,6 @@ Soru 12 : ***** Murat Bey *****
 
 
 
-cozumu
-
-
-		Scanner scan = new Scanner(System.in);
-		System.out.println("lutfen  ilk kelimeyi giriniz : ");
-
-		String kelime1 = scan.nextLine();
-
-		System.out.println("lutfen  ikinci ikinci giriniz : ");
-
-		String kelime2 = scan.nextLine();
-
-		
-
-		if (kelime1.charAt(kelime1.length() - 1) == kelime2.charAt(0)) {
-
-			//2.secenek System.out.println(isim1.substring(0, isim1.length()-1)+isim2);
-			System.out.println(kelime1 + kelime2.substring(1, kelime2.length()));
-
-		} else {
-			System.out.println(kelime1 + kelime2);
-		}
 
 
 
