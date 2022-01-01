@@ -26,6 +26,8 @@ public class Q_09 {
 		//int arr[] = {1,2,3,1};
 		//int arr[] = {1};
 
+		System.out.println(arr.length >= 1 && arr[0] == arr[arr.length-1]? true : false);
+		
 		
 		if (arr.length >= 1 && arr[0] == arr[arr.length-1]) {
 			

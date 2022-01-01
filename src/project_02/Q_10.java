@@ -24,7 +24,7 @@ public class Q_10 {
 		
 		String arr[][] = { { "$12", "$22", "5$" }, { "£9", "£40", "$1", "$2" }, { "£12" } };
 
-		kurHesabi(arr); // return etmemiz istendiginden method reation ile hesaplamalari yapip 
+		System.out.println(kurHesabi(arr)); // return etmemiz istendiginden method reation ile hesaplamalari yapip 
 						// toplam degeri return ettik
 		
 		
@@ -46,7 +46,7 @@ public class Q_10 {
 				
 				if (arr[i][j].contains("$")) {
 					
-					toplam += (Double.parseDouble(arr[i][j].replace("$", ""))* 3.2);
+					toplam += (Double.valueOf(arr[i][j].replace("$", ""))* 3.2);
 				} 
 				if(arr[i][j].contains("£")) {
 					

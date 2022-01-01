@@ -36,7 +36,7 @@ Soru 3 : ***** HACER HANIM *****
 
 Soru 4 : ***** HADİ BEY *****
 
-  	Bir veya daha fazla öğe iceren int array verildiğinde, arraydeki en büyük 
+  			Bir veya daha fazla öğe iceren int array verildiğinde, arraydeki en büyük 
         ve en küçük öğeler arasındaki farkı return edin.
 
         Not: the built-in    Math.min(v1, v2) ve   Math.max(v1, v2) 
