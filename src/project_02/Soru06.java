@@ -32,7 +32,7 @@ public class Soru06 {
 			}
 
 		}
-		System.out.println("sonuc " + flag);
+		System.out.println("for lopp ile min sonuc " + flag);
 
 		// List<int[]> array=Arrays.asList(arr);
 		// System.out.println(array);
