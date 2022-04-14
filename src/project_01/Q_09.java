@@ -16,17 +16,23 @@ public class Q_09 {
 		 */
 
 		Scanner scan = new Scanner(System.in);
+		Random rnd = new Random();
+		int yilList=12;
+		for(int i=0;i<20;i++) {
+		
+		int secilenYil= rnd.nextInt(16);
+		System.out.println(secilenYil);
+		}
+//		System.out.println("max say�s�n� giriniz");
+//
+//		int max = scan.nextInt();
+//
+//		Random r = new Random(); // random s�n�f�
+//		int a = r.nextInt(max);// 0 ve negatifler dahil degil max da dahil degil
+//
+//		System.out.println(a);
 
-		System.out.println("max say�s�n� giriniz");
-
-		int max = scan.nextInt();
-
-		Random r = new Random(); // random s�n�f�
-		int a = r.nextInt(max);// 0 ve negatifler dahil de�il max da dahil de�il
-
-		System.out.println(a);
-
-		scan.close();
+		//scan.close();
 	}
 
 }
